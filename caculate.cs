@@ -12,5 +12,11 @@ public static class caculate
 		else
 			return b;
 	}
+	public int minus(int a,int b)
+	{
+		return a-b;
+	}
+
+
 }
 
