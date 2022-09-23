@@ -12,9 +12,12 @@ public static class caculate
 		else
 			return b;
 	}
-	public int minus(int a,int b)
+	public int min(int a,int b)
 	{
-		return a-b;
+		if(a<b)
+			return a;
+		else
+			return b;
 	}
 
 
